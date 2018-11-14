@@ -18,6 +18,7 @@ public class Product {
    
    @Column(name = "product_Number")
    private long ProductNumber;
+   
 	@Column(name = "name")
     private  String name;
     @Column(name = "unit_price")
